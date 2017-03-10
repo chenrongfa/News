@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer-array name="guideImages">
+        <item>@drawable/guide_1</item>
+        <item>@drawable/guide_2</item>
+        <item>@drawable/guide_3</item>
+    </integer-array>
+    <string-array name="guideTitle">
+        <item>@string/guide_title</item>
+        <item>@string/guide_title1</item>
+        <item>@string/guide_title3</item>
+    </string-array>
+    <string-array name="leftTitle">
+        <item>@string/news</item>
+        <item>@string/theme</item>
+        <item>@string/images</item>
+        <item>@string/action</item>
+        <item>@string/vote</item>
+    </string-array>
+    <string name="guide_title1">2</string>
+    <string name="guide_title">1</string>
+    <string name="guide_title3">3</string>
+</resources>

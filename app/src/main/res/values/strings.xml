@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">News</string>
+    <string name="start">开始体验</string>
+    <string name="home">主页</string>
+    <string name="news">新闻</string>
+    <string name="shop">商城</string>
+    <string name="shopcar">购物车</string>
+    <string name="setting">设置</string>
+    <string name="theme">专题</string>
+    <string name="images">组图</string>
+    <string name="action">互动</string>
+E
+    <string name="vote">投票</string>
+    <string name="refresh_time">刷新时间</string>
+</resources>

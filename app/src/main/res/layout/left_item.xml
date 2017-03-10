@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:textColor="@drawable/font_selector"
+    android:drawablePadding="8dp"
+    android:paddingLeft="10dp"
+    android:paddingTop="20dp"
+    android:textSize="@dimen/font_x"
+    android:layout_height="wrap_content"
+    android:drawableLeft="@drawable/title_left_selector"
+    android:id="@+id/tv_left"
+    ></TextView>

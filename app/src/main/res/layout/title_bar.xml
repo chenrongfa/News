@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+          android:background="@drawable/button_red_normal"
+          android:id="@+id/tv_title_bar"
+          android:layout_width="match_parent"
+         xmlns:tools="http://schemas.android.com/tools"
+          android:textSize="@dimen/font_normal"
+          android:gravity="center"
+          tools:text="test"
+          android:layout_height="50dp">
+</TextView>

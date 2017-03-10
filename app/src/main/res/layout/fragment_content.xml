@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/vp_content"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <RadioGroup
+        android:id="@+id/gb_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_point"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/btn_home"
+            style="@style/radio_style"
+            android:drawableTop="@drawable/rb_selector"
+            android:text="@string/home"/>
+
+        <RadioButton
+            android:id="@+id/btn_news"
+            style="@style/radio_style"
+            android:drawableTop="@drawable/rb_news_selector"
+            android:text="@string/news"/>
+
+        <RadioButton
+            android:id="@+id/btn_shop"
+            style="@style/radio_style"
+            android:drawableTop="@drawable/rb_shop_selector"
+            android:text="@string/shop"/>
+
+        <RadioButton
+            android:id="@+id/btn_shopcar"
+           style="@style/radio_style"
+            android:drawableTop="@drawable/rb_shopcar_selector"
+            android:text="@string/shopcar"/>
+        <RadioButton
+            android:id="@+id/btn_setting"
+           style="@style/radio_style"
+            android:drawableTop="@drawable/rb_setting_selector"
+            android:text="@string/setting"/>
+
+    </RadioGroup>
+
+</LinearLayout>
