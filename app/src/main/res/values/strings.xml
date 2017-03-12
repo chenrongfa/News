@@ -9,7 +9,22 @@
     <string name="theme">专题</string>
     <string name="images">组图</string>
     <string name="action">互动</string>
-E
+    E
     <string name="vote">投票</string>
     <string name="refresh_time">刷新时间</string>
+    <string-array name="font">
+        <item>small</item>
+        <item>xsmall</item>
+        <item>normal</item>
+        <item>large</item>
+        <item>xlarge</item>
+
+
+    </string-array>
+    <string-array name="images">
+        <item>一分图</item>
+        <item>二分图</item>
+        <item>四分图</item>
+
+    </string-array>
 </resources>

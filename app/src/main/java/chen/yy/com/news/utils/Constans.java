@@ -26,6 +26,7 @@ public class Constans {
 	 *
 	 */
 	public static final String NEWSDETAIL = "newsdetail";
+	public static final String URL = "url";
 
 
 }

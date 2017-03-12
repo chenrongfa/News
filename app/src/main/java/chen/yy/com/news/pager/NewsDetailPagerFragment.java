@@ -1,5 +1,6 @@
 package chen.yy.com.news.pager;
 
+import android.content.Intent;
 import android.os.Handler;
 import android.os.Message;
 import android.text.TextUtils;
@@ -21,6 +22,7 @@ import java.util.Arrays;
 import java.util.List;
 
 import chen.yy.com.news.R;
+import chen.yy.com.news.activity.NewsActivity;
 import chen.yy.com.news.adapter.NewsListAdapter;
 import chen.yy.com.news.base.BaseFragment;
 import chen.yy.com.news.base.NewsPagerAdapter;
@@ -83,6 +85,7 @@ public class NewsDetailPagerFragment extends BaseFragment {
 	};
 	private int SELfMORE = 3;
 	private int SELfREFRESH=4;
+	private List<NewsPagerBean.Data.Topnews> topnews;
 
 	private void resolveMore() {
 		if (newsLIsts != null) {
@@ -131,8 +134,8 @@ public class NewsDetailPagerFragment extends BaseFragment {
 	}
 
 	private void resolveBanner() {
-		List<NewsPagerBean.Data.Topnews> topnews = o.getData().getTopnews();
-	if(topnews!=null) {
+		topnews = o.getData().getTopnews();
+	if(topnews !=null) {
 		String images[] = new String[topnews.size()];
 		String titles[] = new String[topnews.size()];
 		//图片地址
@@ -161,6 +164,8 @@ public class NewsDetailPagerFragment extends BaseFragment {
 			@Override
 			public void OnBannerClick(int position) {
 				Log.e(TAG, "OnBannerClick: " + position);
+				startActivity(topnews.get(position).getUrl());
+
 			}
 		});
 		vpNewsTop.start();
@@ -192,10 +197,11 @@ public class NewsDetailPagerFragment extends BaseFragment {
 				if(position>=2) {
 					View view1 = (View) newsLIsts.sparseArray.get(news.get(position - 2).getId());
 					if(view1==null){
-						newsLIsts.sparseArray.put(news.get(position - 2).getId(),view);
+						newsLIsts.sparseArray.put(news.get(position - 2).getId(),view1);
 						newsLIsts.notifyDataSetChanged();
 					}
-					ShowTipUtils.Show(context, position + "");
+
+					startActivity(news.get(position - 2).getUrl());
 				}
 			}
 		});
@@ -228,6 +234,12 @@ public class NewsDetailPagerFragment extends BaseFragment {
 
 
 		Log.e(TAG, "bindData: ");
+	}
+
+	private void startActivity(String url) {
+		Intent intent=new Intent(getActivity(), NewsActivity.class);
+		intent.putExtra(Constans.URL,Constans.BASE_URL+url);
+		getActivity().startActivity(intent);
 	}
 
 	@Override

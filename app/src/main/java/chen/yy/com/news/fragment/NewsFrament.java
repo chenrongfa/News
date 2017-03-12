@@ -87,13 +87,13 @@ public class NewsFrament extends BaseFragment {
 		newsThemeFragmnet = new ThemeDetailFragment();
 		newsThemeFragmnet.setArguments(bundle);
 		mFragments.add(newsThemeFragmnet);
-
-		newsCommunityFragmnet = new NewsCommunityPagerFragment();
-		newsCommunityFragmnet.setArguments(bundle);
-		mFragments.add(newsCommunityFragmnet);
 		newsImagesFragmnet = new NewsImagesPagerFragment();
 		newsImagesFragmnet.setArguments(bundle);
 		mFragments.add(newsImagesFragmnet);
+		newsCommunityFragmnet = new NewsCommunityPagerFragment();
+		newsCommunityFragmnet.setArguments(bundle);
+		mFragments.add(newsCommunityFragmnet);
+
 		newsVoteFragmnet = new NewsVotePagerFragment();
 		newsVoteFragmnet.setArguments(bundle);
 		mFragments.add(newsVoteFragmnet);
@@ -180,15 +180,11 @@ public class NewsFrament extends BaseFragment {
 
 		@Override
 		public void onSuccess(String result) {
-			Log.e(TAG, "onSuccess: "+Thread.currentThread().getName() );
-			Log.e(TAG, "onSuccess: " + result);
 			CacheUtils.getInstance().save("news",result);
 			newsBean = parseJson(result);
 			if(newsBean!=null){
 				//通过eventbus发送数据
 				initFragment(newsBean);
-
-//				EventBus.getDefault().post(1);
 				Log.e(TAG, "onSuccess: "+newsBean );
 			}
 
@@ -198,6 +194,15 @@ public class NewsFrament extends BaseFragment {
 		@Override
 		public void onError(Throwable ex, boolean isOnCallback) {
 			Log.e(TAG, "onError: "+ex.toString());
+			String news = CacheUtils.getInstance().get("news", "");
+			if(!TextUtils.isEmpty(news)) {
+				newsBean = parseJson(news);
+				if (newsBean != null) {
+					//通过eventbus发送数据
+					initFragment(newsBean);
+					Log.e(TAG, "onSuccess: " + newsBean);
+				}
+			}
 
 		}
 

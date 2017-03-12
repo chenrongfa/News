@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
           package="chen.yy.com.news">
-    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
- <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
 
- </uses-permission>
-    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"></uses-permission>
-    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"></uses-permission>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"></uses-permission>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"></uses-permission>
-
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION">
+    </uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
 
     <application
         android:name=".InitApplication"
@@ -31,11 +30,13 @@
         </activity>
         <activity android:name=".activity.MainActivity">
         </activity>
-        <!--<receiver android:name=".reciever.NetStateBroadcast">-->
-            <!--<intent-filter >-->
-                <!--<action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action>-->
-            <!--</intent-filter>-->
-        <!--</receiver>-->
+        <!-- <receiver android:name=".reciever.NetStateBroadcast"> -->
+        <!-- <intent-filter > -->
+        <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action> -->
+        <!-- </intent-filter> -->
+        <!-- </receiver> -->
+        <activity android:name=".activity.NewsActivity">
+        </activity>
     </application>
 
 </manifest>

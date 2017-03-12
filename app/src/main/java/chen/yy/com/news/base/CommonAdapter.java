@@ -20,6 +20,55 @@ public abstract class CommonAdapter<T> extends BaseAdapter {
 	private  T[] t;
 	private Context mContext;
 	private List<T> list;
+	public List<T> getList() {
+		return list;
+	}
+
+	public void setList(List<T> list) {
+		this.list = list;
+	}
+
+	public T[] getT() {
+		return t;
+	}
+
+	public void setT(T[] t) {
+		this.t = t;
+	}
+
+	/**
+	 *
+	 *  刷新集合
+	 * @param tList
+	 */
+  public void refresh(List<T> tList) {
+	  if (tList != null) {
+		  this.list = tList;
+		  notifyDataSetChanged();
+	  }
+  }
+
+	/**
+	 *  刷新数组
+	 * @param tList
+	 */
+	public void refresh(T[] tList){
+	  if(tList!=null){
+		  this.t=tList;
+		  notifyDataSetChanged();
+	  }
+
+  }
+	/**
+	 * j加载更多
+	 */
+	public void onLoadMore(List<T> tList){
+		if(tList!=null&&!list.containsAll(tList)){
+			list.addAll(tList);
+			notifyDataSetChanged();
+		}
+
+	}
 	private int layoutID;
 
 	/**
