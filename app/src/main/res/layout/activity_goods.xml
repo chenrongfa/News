@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_goods"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+   >
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_action"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorPrimary">
+
+        <TextView
+
+            android:id="@+id/tv_goosTip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/goods_message"
+            />
+
+    </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <chen.yy.com.news.views.ScrollViewContainer
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <ScrollView
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+
+                    <ImageView
+                        android:id="@+id/iv_photo"
+                        android:src="@drawable/community_default_user_icon"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tv_goodsName"
+                        android:layout_width="wrap_content"
+
+                        android:layout_height="wrap_content"
+                        android:text="@string/app_name"/>
+
+                    <TextView
+                        android:id="@+id/tv_goodsDesc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <TextView
+                        android:id="@+id/tv_goodsPrice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"/>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+                        android:id="@+id/tv_atguigu"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goods_atguigu"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+                        android:id="@+id/tv_offer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/goods_offer"
+                        />
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="10dp"
+                        android:background="@color/white"></View>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="@string/remain"/>
+
+                </LinearLayout>
+
+
+            </ScrollView>
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <WebView
+                    android:id="@+id/wv_atguigu"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                </WebView>
+
+            </ScrollView>
+
+        </chen.yy.com.news.views.ScrollViewContainer>
+        </FrameLayout>
+
+   <View
+       android:layout_above="@+id/ll_below"
+       android:layout_width="match_parent"
+       android:layout_height="1dp"
+       android:background="@color/white"
+       ></View>
+
+    <LinearLayout
+        android:id="@+id/ll_below"
+        android:layout_gravity="bottom"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_rl"
+            style="@style/tv_home"
+            android:drawableTop="@drawable/main_home"
+            android:text="@string/relaction_user"
+            />
+
+        <TextView
+            android:id="@+id/tv_cl"
+            style="@style/tv_home"
+            android:drawableTop="@drawable/good_uncollected"
+            android:text="@string/collectioned"/>
+
+        <TextView
+            android:id="@+id/iv_sc"
+            style="@style/tv_home"
+            android:drawableTop="@drawable/main_cart"
+            android:text="@string/shopcar"/>
+
+        <Button
+            android:id="@+id/btn_add"
+            android:layout_gravity="center"
+            android:background="@drawable/seclector_addcar"
+            style="@style/tv_home"
+            android:text="@string/addcar"/>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

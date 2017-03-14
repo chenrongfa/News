@@ -3,5 +3,31 @@
               android:orientation="vertical"
               android:layout_width="match_parent"
               android:layout_height="match_parent">
-<include layout="@layout/title_bar"></include>
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <TextView
+        android:gravity="center"
+        android:text="@string/shopcar"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"/>
+     <TextView
+         android:clickable="true"
+         android:id="@+id/tv_edit"
+         android:text="@string/edit"
+         android:layout_alignParentRight="true"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"/>
+</RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/white"></View>
+
+    <include    layout="@layout/shop_goods"></include>
+
+    <include    layout="@layout/shopcar_empty"></include>
+
+
 </LinearLayout>

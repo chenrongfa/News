@@ -5,6 +5,13 @@
     <color name="colorAccent">#FF4081</color>
     <color name="gray_point">#666666</color>
     <color name="red_point">#ff0000</color>
-    <color name="white">#ffffff</color>
+
     <color name="black">#000000</color>
+    <color name="main_red">#8d2121</color>
+    <color name="white">#dfbebe</color>
+    <color name="main_black">#4d3838</color>
+    <color name="main_gray">#d9d9d9</color>
+    <color name="main_white">#ffffff</color>
+    <color name="white1">#d9d9d9</color>
+    <color name="green">#6aa84f</color>
 </resources>

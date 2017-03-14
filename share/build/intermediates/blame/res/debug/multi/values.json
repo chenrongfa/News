@@ -1,0 +1,1966 @@
+[
+    {
+        "outputFile": "D:\\work\\News\\share\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 81,
+                    "endOffset": 132
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 81,
+                        "endOffset": 134
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 137,
+                    "endColumn": 81,
+                    "endOffset": 214
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_color_drawables.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 140,
+                        "endColumn": 81,
+                        "endOffset": 217
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 219,
+                    "endColumn": 46,
+                    "endOffset": 261
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 114,
+                        "endColumn": 46,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 266,
+                    "endColumn": 46,
+                    "endOffset": 308
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 161,
+                        "endColumn": 46,
+                        "endOffset": 203
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 313,
+                    "endColumn": 46,
+                    "endOffset": 355
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 208,
+                        "endColumn": 46,
+                        "endOffset": 250
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 360,
+                    "endColumn": 46,
+                    "endOffset": 402
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 255,
+                        "endColumn": 46,
+                        "endOffset": 297
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 407,
+                    "endColumn": 49,
+                    "endOffset": 452
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 302,
+                        "endColumn": 49,
+                        "endOffset": 347
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 457,
+                    "endColumn": 57,
+                    "endOffset": 510
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endColumn": 57,
+                        "endOffset": 109
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 515,
+                    "endColumn": 48,
+                    "endOffset": 559
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 48,
+                        "endOffset": 458
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 564,
+                    "endColumn": 55,
+                    "endOffset": 615
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 357,
+                        "endColumn": 55,
+                        "endOffset": 408
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 620,
+                    "endColumn": 45,
+                    "endOffset": 661
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 65,
+                        "startColumn": 4,
+                        "startOffset": 3726,
+                        "endColumn": 45,
+                        "endOffset": 3767
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 666,
+                    "endColumn": 86,
+                    "endOffset": 748
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1295,
+                        "endColumn": 86,
+                        "endOffset": 1377
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 753,
+                    "endColumn": 53,
+                    "endOffset": 802
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 66,
+                        "startColumn": 4,
+                        "startOffset": 3773,
+                        "endColumn": 53,
+                        "endOffset": 3822
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 807,
+                    "endColumn": 45,
+                    "endOffset": 848
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 53,
+                        "startColumn": 1,
+                        "startOffset": 3073,
+                        "endColumn": 42,
+                        "endOffset": 3114
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 853,
+                    "endColumn": 44,
+                    "endOffset": 893
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 69,
+                        "startColumn": 4,
+                        "startOffset": 3921,
+                        "endColumn": 44,
+                        "endOffset": 3961
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 898,
+                    "endColumn": 42,
+                    "endOffset": 936
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 34,
+                        "startColumn": 1,
+                        "startOffset": 2200,
+                        "endColumn": 39,
+                        "endOffset": 2238
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 941,
+                    "endColumn": 48,
+                    "endOffset": 985
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 44,
+                        "startColumn": 1,
+                        "startOffset": 2654,
+                        "endColumn": 45,
+                        "endOffset": 2698
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 990,
+                    "endColumn": 41,
+                    "endOffset": 1027
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 1,
+                        "startOffset": 1958,
+                        "endColumn": 38,
+                        "endOffset": 1995
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 1032,
+                    "endColumn": 46,
+                    "endOffset": 1074
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 36,
+                        "startColumn": 1,
+                        "startOffset": 2285,
+                        "endColumn": 43,
+                        "endOffset": 2327
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 1079,
+                    "endColumn": 50,
+                    "endOffset": 1125
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 1,
+                        "startOffset": 1778,
+                        "endColumn": 47,
+                        "endOffset": 1824
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 1130,
+                    "endColumn": 69,
+                    "endOffset": 1195
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 62,
+                        "startColumn": 4,
+                        "startOffset": 3556,
+                        "endColumn": 69,
+                        "endOffset": 3621
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 1200,
+                    "endColumn": 108,
+                    "endOffset": 1304
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1383,
+                        "endColumn": 108,
+                        "endOffset": 1487
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 1309,
+                    "endColumn": 46,
+                    "endOffset": 1351
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 42,
+                        "startColumn": 1,
+                        "startOffset": 2564,
+                        "endColumn": 43,
+                        "endOffset": 2606
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 1356,
+                    "endColumn": 54,
+                    "endOffset": 1406
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 39,
+                        "startColumn": 1,
+                        "startOffset": 2423,
+                        "endColumn": 51,
+                        "endOffset": 2473
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 26,
+                    "startColumn": 4,
+                    "startOffset": 1411,
+                    "endColumn": 48,
+                    "endOffset": 1455
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 82,
+                        "startColumn": 1,
+                        "startOffset": 4570,
+                        "endColumn": 45,
+                        "endOffset": 4614
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 27,
+                    "startColumn": 4,
+                    "startOffset": 1460,
+                    "endColumn": 46,
+                    "endOffset": 1502
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 81,
+                        "startColumn": 1,
+                        "startOffset": 4525,
+                        "endColumn": 43,
+                        "endOffset": 4567
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 28,
+                    "startColumn": 4,
+                    "startOffset": 1507,
+                    "endColumn": 102,
+                    "endOffset": 1605
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 327,
+                        "endColumn": 102,
+                        "endOffset": 425
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 29,
+                    "startColumn": 4,
+                    "startOffset": 1610,
+                    "endColumn": 51,
+                    "endOffset": 1657
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 38,
+                        "startColumn": 1,
+                        "startOffset": 2373,
+                        "endColumn": 48,
+                        "endOffset": 2420
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 30,
+                    "startColumn": 4,
+                    "startOffset": 1662,
+                    "endColumn": 52,
+                    "endOffset": 1710
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 46,
+                        "startColumn": 1,
+                        "startOffset": 2745,
+                        "endColumn": 49,
+                        "endOffset": 2793
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 31,
+                    "startColumn": 4,
+                    "startOffset": 1715,
+                    "endColumn": 103,
+                    "endOffset": 1814
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 621,
+                        "endColumn": 103,
+                        "endOffset": 720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 32,
+                    "startColumn": 4,
+                    "startOffset": 1819,
+                    "endColumn": 83,
+                    "endOffset": 1898
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 61,
+                        "startColumn": 1,
+                        "startOffset": 3471,
+                        "endColumn": 80,
+                        "endOffset": 3550
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 33,
+                    "startColumn": 4,
+                    "startOffset": 1903,
+                    "endLine": 98,
+                    "endColumn": 9,
+                    "endOffset": 3783
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_instapaper_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 56,
+                        "endLine": 68,
+                        "endColumn": 12,
+                        "endOffset": 1870
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 99,
+                    "startColumn": 4,
+                    "startOffset": 3788,
+                    "endColumn": 54,
+                    "endOffset": 3838
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 56,
+                        "startColumn": 1,
+                        "startOffset": 3211,
+                        "endColumn": 51,
+                        "endOffset": 3261
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 100,
+                    "startColumn": 4,
+                    "startOffset": 3843,
+                    "endColumn": 52,
+                    "endOffset": 3891
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 57,
+                        "startColumn": 1,
+                        "startOffset": 3264,
+                        "endColumn": 49,
+                        "endOffset": 3312
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 101,
+                    "startColumn": 4,
+                    "startOffset": 3896,
+                    "endColumn": 52,
+                    "endOffset": 3944
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 59,
+                        "startColumn": 1,
+                        "startOffset": 3364,
+                        "endColumn": 49,
+                        "endOffset": 3412
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 102,
+                    "startColumn": 4,
+                    "startOffset": 3949,
+                    "endColumn": 57,
+                    "endOffset": 4002
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 60,
+                        "startColumn": 1,
+                        "startOffset": 3415,
+                        "endColumn": 54,
+                        "endOffset": 3468
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 103,
+                    "startColumn": 4,
+                    "startOffset": 4007,
+                    "endColumn": 50,
+                    "endOffset": 4053
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 58,
+                        "startColumn": 1,
+                        "startOffset": 3315,
+                        "endColumn": 47,
+                        "endOffset": 3361
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 104,
+                    "startColumn": 4,
+                    "startOffset": 4058,
+                    "endColumn": 43,
+                    "endOffset": 4097
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 1,
+                        "startOffset": 1916,
+                        "endColumn": 40,
+                        "endOffset": 1955
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 105,
+                    "startColumn": 4,
+                    "startOffset": 4102,
+                    "endColumn": 54,
+                    "endOffset": 4152
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 51,
+                        "startColumn": 1,
+                        "startOffset": 2979,
+                        "endColumn": 51,
+                        "endOffset": 3029
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 106,
+                    "startColumn": 4,
+                    "startOffset": 4157,
+                    "endColumn": 104,
+                    "endOffset": 4257
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1002,
+                        "endColumn": 104,
+                        "endOffset": 1102
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 107,
+                    "startColumn": 4,
+                    "startOffset": 4262,
+                    "endColumn": 52,
+                    "endOffset": 4310
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 50,
+                        "startColumn": 1,
+                        "startOffset": 2928,
+                        "endColumn": 49,
+                        "endOffset": 2976
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 108,
+                    "startColumn": 4,
+                    "startOffset": 4315,
+                    "endColumn": 101,
+                    "endOffset": 4412
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 899,
+                        "endColumn": 101,
+                        "endOffset": 996
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 109,
+                    "startColumn": 4,
+                    "startOffset": 4417,
+                    "endColumn": 43,
+                    "endOffset": 4456
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 63,
+                        "startColumn": 4,
+                        "startOffset": 3627,
+                        "endColumn": 43,
+                        "endOffset": 3666
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 110,
+                    "startColumn": 4,
+                    "startOffset": 4461,
+                    "endColumn": 85,
+                    "endOffset": 4542
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1208,
+                        "endColumn": 85,
+                        "endOffset": 1289
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 111,
+                    "startColumn": 4,
+                    "startOffset": 4547,
+                    "endColumn": 52,
+                    "endOffset": 4595
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 64,
+                        "startColumn": 4,
+                        "startOffset": 3672,
+                        "endColumn": 52,
+                        "endOffset": 3720
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 112,
+                    "startColumn": 4,
+                    "startOffset": 4600,
+                    "endColumn": 42,
+                    "endOffset": 4638
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 52,
+                        "startColumn": 1,
+                        "startOffset": 3032,
+                        "endColumn": 39,
+                        "endOffset": 3070
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 113,
+                    "startColumn": 4,
+                    "startOffset": 4643,
+                    "endColumn": 86,
+                    "endOffset": 4725
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 811,
+                        "endColumn": 86,
+                        "endOffset": 893
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 114,
+                    "startColumn": 4,
+                    "startOffset": 4730,
+                    "endColumn": 44,
+                    "endOffset": 4770
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 37,
+                        "startColumn": 1,
+                        "startOffset": 2330,
+                        "endColumn": 41,
+                        "endOffset": 2370
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 115,
+                    "startColumn": 4,
+                    "startOffset": 4775,
+                    "endColumn": 42,
+                    "endOffset": 4813
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 70,
+                        "startColumn": 1,
+                        "startOffset": 3964,
+                        "endColumn": 39,
+                        "endOffset": 4002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 116,
+                    "startColumn": 4,
+                    "startOffset": 4818,
+                    "endColumn": 43,
+                    "endOffset": 4857
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 49,
+                        "startColumn": 1,
+                        "startOffset": 2886,
+                        "endColumn": 40,
+                        "endOffset": 2925
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 117,
+                    "startColumn": 4,
+                    "startOffset": 4862,
+                    "endColumn": 59,
+                    "endOffset": 4917
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 74,
+                        "startColumn": 1,
+                        "startOffset": 4169,
+                        "endColumn": 56,
+                        "endOffset": 4224
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 118,
+                    "startColumn": 4,
+                    "startOffset": 4922,
+                    "endColumn": 54,
+                    "endOffset": 4972
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 33,
+                        "startColumn": 1,
+                        "startOffset": 2147,
+                        "endColumn": 51,
+                        "endOffset": 2197
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 119,
+                    "startColumn": 4,
+                    "startOffset": 4977,
+                    "endColumn": 46,
+                    "endOffset": 5019
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 336,
+                        "endColumn": 46,
+                        "endOffset": 378
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 120,
+                    "startColumn": 4,
+                    "startOffset": 5024,
+                    "endColumn": 47,
+                    "endOffset": 5067
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 439,
+                        "endColumn": 47,
+                        "endOffset": 482
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 121,
+                    "startColumn": 4,
+                    "startOffset": 5072,
+                    "endColumn": 49,
+                    "endOffset": 5117
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 488,
+                        "endColumn": 49,
+                        "endOffset": 533
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 122,
+                    "startColumn": 4,
+                    "startOffset": 5122,
+                    "endColumn": 53,
+                    "endOffset": 5171
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 384,
+                        "endColumn": 53,
+                        "endOffset": 433
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 123,
+                    "startColumn": 4,
+                    "startOffset": 5176,
+                    "endColumn": 57,
+                    "endOffset": 5229
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 539,
+                        "endColumn": 57,
+                        "endOffset": 592
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 124,
+                    "startColumn": 4,
+                    "startOffset": 5234,
+                    "endColumn": 52,
+                    "endOffset": 5282
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 1,
+                        "startOffset": 654,
+                        "endColumn": 49,
+                        "endOffset": 702
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 125,
+                    "startColumn": 4,
+                    "startOffset": 5287,
+                    "endColumn": 60,
+                    "endOffset": 5343
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 1,
+                        "startOffset": 595,
+                        "endColumn": 57,
+                        "endOffset": 651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 126,
+                    "startColumn": 4,
+                    "startOffset": 5348,
+                    "endColumn": 45,
+                    "endOffset": 5389
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 45,
+                        "endOffset": 98
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 127,
+                    "startColumn": 4,
+                    "startOffset": 5394,
+                    "endColumn": 57,
+                    "endOffset": 5447
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 277,
+                        "endColumn": 57,
+                        "endOffset": 330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 128,
+                    "startColumn": 4,
+                    "startOffset": 5452,
+                    "endColumn": 57,
+                    "endOffset": 5505
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 218,
+                        "endColumn": 57,
+                        "endOffset": 271
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 129,
+                    "startColumn": 4,
+                    "startOffset": 5510,
+                    "endColumn": 54,
+                    "endOffset": 5560
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 162,
+                        "endColumn": 54,
+                        "endOffset": 212
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 130,
+                    "startColumn": 4,
+                    "startOffset": 5565,
+                    "endColumn": 56,
+                    "endOffset": 5617
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_oks_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 104,
+                        "endColumn": 56,
+                        "endOffset": 156
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 131,
+                    "startColumn": 4,
+                    "startOffset": 5622,
+                    "endColumn": 52,
+                    "endOffset": 5670
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 41,
+                        "startColumn": 1,
+                        "startOffset": 2513,
+                        "endColumn": 49,
+                        "endOffset": 2561
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 132,
+                    "startColumn": 4,
+                    "startOffset": 5675,
+                    "endColumn": 103,
+                    "endOffset": 5774
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 516,
+                        "endColumn": 103,
+                        "endOffset": 615
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 133,
+                    "startColumn": 4,
+                    "startOffset": 5779,
+                    "endColumn": 44,
+                    "endOffset": 5819
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 67,
+                        "startColumn": 4,
+                        "startOffset": 3828,
+                        "endColumn": 44,
+                        "endOffset": 3868
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 134,
+                    "startColumn": 4,
+                    "startOffset": 5824,
+                    "endColumn": 46,
+                    "endOffset": 5866
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 55,
+                        "startColumn": 1,
+                        "startOffset": 3166,
+                        "endColumn": 43,
+                        "endOffset": 3208
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 135,
+                    "startColumn": 4,
+                    "startOffset": 5871,
+                    "endColumn": 38,
+                    "endOffset": 5905
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 40,
+                        "startColumn": 1,
+                        "startOffset": 2476,
+                        "endColumn": 35,
+                        "endOffset": 2510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 136,
+                    "startColumn": 4,
+                    "startOffset": 5910,
+                    "endColumn": 83,
+                    "endOffset": 5989
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 431,
+                        "endColumn": 83,
+                        "endOffset": 510
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 137,
+                    "startColumn": 4,
+                    "startOffset": 5994,
+                    "endColumn": 43,
+                    "endOffset": 6033
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 1,
+                        "startOffset": 1591,
+                        "endColumn": 40,
+                        "endOffset": 1630
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 138,
+                    "startColumn": 4,
+                    "startOffset": 6038,
+                    "endColumn": 43,
+                    "endOffset": 6077
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 1,
+                        "startOffset": 1874,
+                        "endColumn": 40,
+                        "endOffset": 1913
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 139,
+                    "startColumn": 4,
+                    "startOffset": 6082,
+                    "endColumn": 62,
+                    "endOffset": 6140
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 73,
+                        "startColumn": 1,
+                        "startOffset": 4108,
+                        "endColumn": 59,
+                        "endOffset": 4166
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 140,
+                    "startColumn": 4,
+                    "startOffset": 6145,
+                    "endColumn": 63,
+                    "endOffset": 6204
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 76,
+                        "startColumn": 1,
+                        "startOffset": 4281,
+                        "endColumn": 60,
+                        "endOffset": 4340
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 141,
+                    "startColumn": 4,
+                    "startOffset": 6209,
+                    "endColumn": 55,
+                    "endOffset": 6260
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 75,
+                        "startColumn": 1,
+                        "startOffset": 4227,
+                        "endColumn": 52,
+                        "endOffset": 4278
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 142,
+                    "startColumn": 4,
+                    "startOffset": 6265,
+                    "endColumn": 50,
+                    "endOffset": 6311
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 72,
+                        "startColumn": 1,
+                        "startOffset": 4059,
+                        "endColumn": 47,
+                        "endOffset": 4105
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 143,
+                    "startColumn": 4,
+                    "startOffset": 6316,
+                    "endColumn": 55,
+                    "endOffset": 6367
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 71,
+                        "startColumn": 1,
+                        "startOffset": 4005,
+                        "endColumn": 52,
+                        "endOffset": 4056
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 144,
+                    "startColumn": 4,
+                    "startOffset": 6372,
+                    "endColumn": 63,
+                    "endOffset": 6431
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 77,
+                        "startColumn": 1,
+                        "startOffset": 4343,
+                        "endColumn": 60,
+                        "endOffset": 4402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 145,
+                    "startColumn": 4,
+                    "startOffset": 6436,
+                    "endColumn": 60,
+                    "endOffset": 6492
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 79,
+                        "startColumn": 1,
+                        "startOffset": 4463,
+                        "endColumn": 57,
+                        "endOffset": 4519
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 146,
+                    "startColumn": 4,
+                    "startOffset": 6497,
+                    "endColumn": 48,
+                    "endOffset": 6541
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 30,
+                        "startColumn": 1,
+                        "startOffset": 1998,
+                        "endColumn": 45,
+                        "endOffset": 2042
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 147,
+                    "startColumn": 4,
+                    "startOffset": 6546,
+                    "endColumn": 47,
+                    "endOffset": 6589
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 1,
+                        "startOffset": 1496,
+                        "endColumn": 44,
+                        "endOffset": 1539
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 148,
+                    "startColumn": 4,
+                    "startOffset": 6594,
+                    "endColumn": 51,
+                    "endOffset": 6641
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 31,
+                        "startColumn": 1,
+                        "startOffset": 2045,
+                        "endColumn": 48,
+                        "endOffset": 2092
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 149,
+                    "startColumn": 4,
+                    "startOffset": 6646,
+                    "endColumn": 53,
+                    "endOffset": 6695
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 32,
+                        "startColumn": 1,
+                        "startOffset": 2095,
+                        "endColumn": 50,
+                        "endOffset": 2144
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 150,
+                    "startColumn": 4,
+                    "startOffset": 6700,
+                    "endColumn": 52,
+                    "endOffset": 6748
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 83,
+                        "startColumn": 1,
+                        "startOffset": 4617,
+                        "endColumn": 49,
+                        "endOffset": 4665
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 151,
+                    "startColumn": 4,
+                    "startOffset": 6753,
+                    "endColumn": 50,
+                    "endOffset": 6799
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 1,
+                        "startOffset": 1542,
+                        "endColumn": 47,
+                        "endOffset": 1588
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 152,
+                    "startColumn": 4,
+                    "startOffset": 6804,
+                    "endColumn": 46,
+                    "endOffset": 6846
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 43,
+                        "startColumn": 1,
+                        "startOffset": 2609,
+                        "endColumn": 43,
+                        "endOffset": 2651
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 153,
+                    "startColumn": 4,
+                    "startOffset": 6851,
+                    "endColumn": 48,
+                    "endOffset": 6895
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 1,
+                        "startOffset": 1827,
+                        "endColumn": 45,
+                        "endOffset": 1871
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 154,
+                    "startColumn": 4,
+                    "startOffset": 6900,
+                    "endColumn": 59,
+                    "endOffset": 6955
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 78,
+                        "startColumn": 1,
+                        "startOffset": 4405,
+                        "endColumn": 56,
+                        "endOffset": 4460
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 155,
+                    "startColumn": 4,
+                    "startOffset": 6960,
+                    "endColumn": 45,
+                    "endOffset": 7001
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 45,
+                        "startColumn": 1,
+                        "startOffset": 2701,
+                        "endColumn": 42,
+                        "endOffset": 2742
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 156,
+                    "startColumn": 4,
+                    "startOffset": 7006,
+                    "endColumn": 59,
+                    "endOffset": 7061
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 118,
+                        "endColumn": 59,
+                        "endOffset": 173
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 157,
+                    "startColumn": 4,
+                    "startOffset": 7066,
+                    "endColumn": 44,
+                    "endOffset": 7106
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 1,
+                        "startOffset": 1633,
+                        "endColumn": 41,
+                        "endOffset": 1673
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 158,
+                    "startColumn": 4,
+                    "startOffset": 7111,
+                    "endColumn": 86,
+                    "endOffset": 7193
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 239,
+                        "endColumn": 86,
+                        "endOffset": 321
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 159,
+                    "startColumn": 4,
+                    "startOffset": 7198,
+                    "endColumn": 52,
+                    "endOffset": 7246
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 1,
+                        "startOffset": 1727,
+                        "endColumn": 49,
+                        "endOffset": 1775
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 160,
+                    "startColumn": 4,
+                    "startOffset": 7251,
+                    "endColumn": 52,
+                    "endOffset": 7299
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 1,
+                        "startOffset": 1676,
+                        "endColumn": 49,
+                        "endOffset": 1724
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 161,
+                    "startColumn": 4,
+                    "startOffset": 7304,
+                    "endColumn": 59,
+                    "endOffset": 7359
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 57,
+                        "endColumn": 59,
+                        "endOffset": 112
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 162,
+                    "startColumn": 4,
+                    "startOffset": 7364,
+                    "endColumn": 58,
+                    "endOffset": 7418
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 179,
+                        "endColumn": 58,
+                        "endOffset": 233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 163,
+                    "startColumn": 4,
+                    "startOffset": 7423,
+                    "endColumn": 50,
+                    "endOffset": 7469
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 54,
+                        "startColumn": 1,
+                        "startOffset": 3117,
+                        "endColumn": 47,
+                        "endOffset": 3163
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 164,
+                    "startColumn": 4,
+                    "startOffset": 7474,
+                    "endColumn": 98,
+                    "endOffset": 7568
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1108,
+                        "endColumn": 98,
+                        "endOffset": 1202
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 165,
+                    "startColumn": 4,
+                    "startOffset": 7573,
+                    "endColumn": 41,
+                    "endOffset": 7610
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 47,
+                        "startColumn": 1,
+                        "startOffset": 2796,
+                        "endColumn": 38,
+                        "endOffset": 2833
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 166,
+                    "startColumn": 4,
+                    "startOffset": 7615,
+                    "endColumn": 83,
+                    "endOffset": 7694
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 726,
+                        "endColumn": 83,
+                        "endOffset": 805
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 167,
+                    "startColumn": 4,
+                    "startOffset": 7699,
+                    "endColumn": 51,
+                    "endOffset": 7746
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 48,
+                        "startColumn": 1,
+                        "startOffset": 2836,
+                        "endColumn": 48,
+                        "endOffset": 2883
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 168,
+                    "startColumn": 4,
+                    "startOffset": 7751,
+                    "endColumn": 45,
+                    "endOffset": 7792
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 35,
+                        "startColumn": 1,
+                        "startOffset": 2241,
+                        "endColumn": 42,
+                        "endOffset": 2282
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 169,
+                    "startColumn": 4,
+                    "startOffset": 7797,
+                    "endColumn": 48,
+                    "endOffset": 7841
+                },
+                "from": {
+                    "file": "D:\\work\\News\\share\\src\\main\\res\\values\\ssdk_strings.xml",
+                    "position": {
+                        "startLine": 68,
+                        "startColumn": 1,
+                        "startOffset": 3871,
+                        "endColumn": 45,
+                        "endOffset": 3915
+                    }
+                }
+            }
+        ]
+    }
+]

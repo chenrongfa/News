@@ -12,8 +12,8 @@ import org.xutils.x;
 import java.util.List;
 
 import chen.yy.com.news.R;
-import chen.yy.com.news.bean.NewsPagerBean;
-import chen.yy.com.news.utils.Constans;
+import chen.yy.com.news.news.bean.NewsPagerBean;
+import chen.yy.com.news.utils.Constants;
 
 import static android.content.ContentValues.TAG;
 
@@ -49,7 +49,7 @@ public class NewsPagerAdapter extends PagerAdapter {
 		Log.e(TAG, "instantiateItem: laile" );
 		ImageView imageView=new ImageView(context);
 		imageView.setImageResource(R.drawable.news_pic_default);
-		x.image().bind(imageView, Constans.BASE_URL+topnews.get(position).getUrl());
+		x.image().bind(imageView, Constants.BASE_URL+topnews.get(position).getUrl());
 		container.addView(container);
 		return imageView;
 	}

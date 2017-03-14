@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tl="http://schemas.android.com/apk/res-auto"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <!--<LinearLayout android:layout_width="match_parent"-->
+                  <!--android:layout_marginLeft="8dp"-->
+                  <!--android:layout_marginRight="8dp"-->
+                  <!--android:clipChildren="false"-->
+        <!--android:layout_height="wrap_content">-->
+        <!--<ImageButton-->
+            <!--android:id="@+id/ib_backToIndex"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:src="@drawable/new_user_login_icon"-->
+            <!--android:button="@null"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_height="40dp"/>-->
+        <!--<TextView-->
+            <!--android:layout_weight="1"-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:text="@string/community"-->
+            <!--android:gravity="center"-->
+            <!--android:textSize="@dimen/seck_size"-->
+            <!--/>-->
+        <!--<ImageButton-->
+            <!--android:src="@drawable/new_message_icon"-->
+            <!--android:id="@+id/ib_message"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:layout_margin="8dp"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="40dp"/>-->
+        <!--</LinearLayout>-->
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/white1"
+        ></View>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.flyco.tablayout.SegmentTabLayout
+            android:id="@+id/tl_3"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="25dp"
+            android:paddingRight="25dp"
+            android:layout_centerInParent="true"
+            tl:tl_bar_color="#ffffff"
+            tl:tl_tab_width="50dp"
+            tl:tl_indicator_anim_enable="true"
+            tl:tl_indicator_color="#F6CE59"
+            tl:tl_indicator_margin_bottom="2dp"
+            tl:tl_indicator_margin_left="2dp"
+            tl:tl_indicator_margin_right="2dp"
+            tl:tl_indicator_margin_top="2dp"
+            tl:tl_textBold="SELECT"/>
+    </RelativeLayout>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/vp_community"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </android.support.v4.view.ViewPager>
+
+
+
+</LinearLayout>

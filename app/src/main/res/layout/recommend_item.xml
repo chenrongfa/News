@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="500dp">
+    <TextView
+        android:clickable="true"
+        android:drawableLeft="@drawable/home_arrow_left_new"
+        android:id="@+id/tv_groom"
+        android:text="@string/new_day_groom"
+        android:layout_width="wrap_content"
+        android:gravity="center"
+        android:drawablePadding="8dp"
+        android:textSize="@dimen/seck_size"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:layout_alignParentRight="true"
+        android:clickable="true"
+        android:textSize="@dimen/seck_size"
+        android:text="@string/find_more"
+        android:drawableRight="@drawable/home_arrow_right"
+        android:textColor="@color/red_point"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tv_groom_more"/>
+    <GridView
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        android:horizontalSpacing="8dp"
+        android:verticalSpacing="8dp"
+        android:id="@+id/gv_rdmain"
+        android:layout_below="@+id/tv_groom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:numColumns="3"
+        >
+    </GridView>
+</RelativeLayout>

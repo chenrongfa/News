@@ -2,6 +2,21 @@ apply plugin: 'com.android.application'
 apply plugin: 'android-apt'
 
 android {
+    lintOptions{
+        checkReleaseBuilds false;
+    }
+    signingConfigs {
+        config {
+            keyAlias 'chenrongfa'
+            keyPassword '123456'
+            storeFile file('I:/BaiduNetdiskDownload/keystore/crf.jks')
+            storePassword 'chenrongfa'
+//            storeFile file("../demokey.keystore")
+//            storePassword "123456"
+//            keyAlias "demokey.keystore"
+//            keyPassword "123456"
+        }
+    }
     compileSdkVersion 24
     buildToolsVersion "25.0.2"
     defaultConfig {
@@ -10,12 +25,14 @@ android {
         targetSdkVersion 24
         versionCode 1
         versionName "1.0"
+        multiDexEnabled true
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
         }
     }
 }
@@ -37,4 +54,29 @@ dependencies {
     compile 'com.youth.banner:banner:1.4.9'
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile project(':pullToRefreshlibrary')
+    //    compile files('libs/jcore-android_v1.1.0.jar')
+    //    compile files('libs/jpush-android_v3.0.1.jar')
+    compile project(':library')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:recyclerview-v7:24.2.1'
+    //    compile files('libs/MobCommons-2017.0216.1054.jar')
+    //    compile files('libs/MobTools-2017.0216.1054.jar')
+    //    compile files('libs/ShareSDK-Alipay-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Alipay-Core-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Alipay-Moments-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Core-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Email-2.8.1.jar')
+    //    compile files('libs/ShareSDK-QQ-2.8.1.jar')
+    //    compile files('libs/ShareSDK-QZone-2.8.1.jar')
+    //    compile files('libs/ShareSDK-ShortMessage-2.8.1.jar')
+    //    compile files('libs/ShareSDK-SinaWeibo-2.8.1.jar')
+    //    compile files('libs/ShareSDK-TencentWeibo-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Wechat-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Wechat-Core-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Wechat-Favorite-2.8.1.jar')
+    //    compile files('libs/ShareSDK-Wechat-Moments-2.8.1.jar')
+    //    compile files('libs/libapshare20161108.jar')
+    compile project(':opendanmaku')
+
+    compile project(':FlycoTabLayout_Lib')
 }

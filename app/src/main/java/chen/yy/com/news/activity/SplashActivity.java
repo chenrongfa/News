@@ -9,7 +9,7 @@ import android.widget.ImageView;
 
 import chen.yy.com.news.R;
 import chen.yy.com.news.utils.CacheUtils;
-import chen.yy.com.news.utils.Constans;
+import chen.yy.com.news.utils.Constants;
 
 public class SplashActivity extends AppCompatActivity {
 private ImageView mImageView;
@@ -39,9 +39,9 @@ private ImageView mImageView;
 			@Override
 			public void onAnimationEnd(Animation animation) {
 
-				Boolean is_first = CacheUtils.getInstance().get(Constans.IS_FIRST, false);
+				Boolean is_first = CacheUtils.getInstance().get(Constants.IS_FIRST, false);
 				if(!is_first){
-					CacheUtils.getInstance().save(Constans.IS_FIRST,true);
+					CacheUtils.getInstance().save(Constants.IS_FIRST,true);
 					Intent intent =new Intent(SplashActivity.this,GuideActivity.class);
 					startActivity(intent);
 					finish();

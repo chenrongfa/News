@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chen.yy.com.news.views.HackyViewPager
+    android:background="@drawable/bg"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/view_pager"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" />

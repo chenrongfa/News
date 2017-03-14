@@ -6,4 +6,6 @@
     <dimen name="font_x">24sp</dimen>
     <dimen name="tab_top_fontsize">20sp</dimen>
     <dimen name="eight">8dp</dimen>
+    <dimen name="seck_size">20sp</dimen>
+    <dimen name="dash_space">1dp</dimen>
 </resources>

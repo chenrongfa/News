@@ -12,8 +12,8 @@ import android.view.WindowManager;
 import com.jeremyfeinstein.slidingmenu.lib.SlidingMenu;
 
 import chen.yy.com.news.R;
-import chen.yy.com.news.fragment.ContentFrament;
-import chen.yy.com.news.fragment.LeftFrament;
+import chen.yy.com.news.news.fragment.ContentFrament;
+import chen.yy.com.news.news.fragment.LeftFrament;
 
 public class MainActivity extends AppCompatActivity {
 
