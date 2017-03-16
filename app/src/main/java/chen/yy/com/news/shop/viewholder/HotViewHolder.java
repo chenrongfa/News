@@ -3,7 +3,6 @@ package chen.yy.com.news.shop.viewholder;
 import android.content.Context;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +12,7 @@ import chen.yy.com.news.shop.adapter.HotAdapter;
 import chen.yy.com.news.shop.bean.GoodsBean;
 import chen.yy.com.news.shop.bean.HomeData;
 import chen.yy.com.news.utils.Constants;
+import chen.yy.com.news.views.ScrollGridView;
 
 /**
  * shopmall2
@@ -24,14 +24,14 @@ import chen.yy.com.news.utils.Constants;
 public class HotViewHolder extends BaseViewHolder implements View.OnClickListener {
     private TextView tv_hot_more;
     private TextView tv_hot;
-    private GridView gv_hot;
+    private ScrollGridView gv_hot;
     private  HomeData.ResultBean resultBean;
     private Context context;
     public HotViewHolder(View itemView) {
         super(itemView);
         tv_hot_more= (TextView) itemView.findViewById(R.id.tv_hot_more);
         tv_hot= (TextView) itemView.findViewById(R.id.tv_hot);
-        gv_hot= (GridView) itemView.findViewById(R.id.gv_hotmain);
+        gv_hot= (ScrollGridView) itemView.findViewById(R.id.gv_hotmain);
     }
 
     @Override

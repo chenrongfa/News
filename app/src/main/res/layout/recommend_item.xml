@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="wrap_content"
+    android:layout_width="match_parent"
     android:layout_height="500dp">
     <TextView
         android:clickable="true"
@@ -23,16 +23,16 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_groom_more"/>
-    <GridView
+    <chen.yy.com.news.views.ScrollGridView
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:horizontalSpacing="8dp"
         android:verticalSpacing="8dp"
         android:id="@+id/gv_rdmain"
         android:layout_below="@+id/tv_groom"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:numColumns="3"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
         >
-    </GridView>
+    </chen.yy.com.news.views.ScrollGridView>
 </RelativeLayout>

@@ -23,6 +23,7 @@ import android.util.Log;
 import android.view.View;
 import android.view.ViewGroup;
 import android.view.ViewGroup.LayoutParams;
+import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 
@@ -33,24 +34,30 @@ import uk.co.senab.photoview.PhotoView;
 
 
 
-public class ImagesActivity extends AppCompatActivity {
+public class ImagesActivity extends AppCompatActivity implements View.OnClickListener {
 	private static final String TAG = "ImagesActivity";
 
 	private int position;
 	private String[] stringArrayExtra;
 	private ViewPager mViewPager;
+	private TextView mTv_visit;
+	private TextView mTv__images_count;
 
 	@Override
 	public void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_view_pager);
 		mViewPager = (HackyViewPager) findViewById(R.id.view_pager);
-		setContentView(mViewPager);
+		mTv_visit= (TextView) findViewById(R.id.tv_visit);
+		mTv__images_count= (TextView) findViewById(R.id.tv__images_count);
+//		setContentView(mViewPager);
 		initData();
+		mTv_visit.setOnClickListener(this);
 
 	}
 
 	private void initData() {
+
 		position = getIntent().getIntExtra("position", 0);
 		//设置显示的位置
 		Log.e(TAG, "initData: "+position );
@@ -58,12 +65,34 @@ public class ImagesActivity extends AppCompatActivity {
 
 		stringArrayExtra = getIntent().getStringArrayExtra(Constants.URL);
 		if(stringArrayExtra!=null){
+			mTv__images_count.setText(position+"/"+stringArrayExtra.length);
 			mViewPager.setAdapter(new SamplePagerAdapter(stringArrayExtra));
 			mViewPager.setCurrentItem(position);
+			mViewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+				@Override
+				public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+
+				}
+
+				@Override
+				public void onPageSelected(int position) {
+					mTv__images_count.setText(position+"/"+stringArrayExtra.length);
+				}
+
+				@Override
+				public void onPageScrollStateChanged(int state) {
+
+				}
+			});
 		}
 	}
 
-	 class SamplePagerAdapter extends PagerAdapter {
+	@Override
+	public void onClick(View v) {
+		finish();
+	}
+
+	class SamplePagerAdapter extends PagerAdapter {
 
 		private String sDrawables[] ;
 

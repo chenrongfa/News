@@ -11,7 +11,8 @@
         <chen.yy.com.news.views.TabView
             style="@style/CustomTab"
             android:id="@+id/titles"
-
+            app:tabBackground="@drawable/bottom_tab_bg"
+            app:tabIndicatorColor="@color/red_point"
             app:tabSelectedTextColor="@color/red_point"
             app:tabTextColor="@drawable/tab_color"
             android:layout_weight="1"
@@ -21,7 +22,6 @@
             android:layout_alignParentRight="true"
             android:id="@+id/iv_come"
             android:background="@color/white1"
-
             android:layout_centerVertical="true"
             android:src="@drawable/news_cate_arr"
             android:layout_width="40dp"

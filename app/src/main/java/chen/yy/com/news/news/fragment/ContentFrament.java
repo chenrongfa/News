@@ -18,6 +18,8 @@ import chen.yy.com.news.R;
 import chen.yy.com.news.activity.MainActivity;
 import chen.yy.com.news.adapter.MainAdapter;
 import chen.yy.com.news.base.BaseFragment;
+import chen.yy.com.news.home.fragment.HomeFrament;
+import chen.yy.com.news.setting.SettingFrament;
 import chen.yy.com.news.shop.fragment.ShopFragment;
 import chen.yy.com.news.shopcar.fragment.ShopcarFragment;
 

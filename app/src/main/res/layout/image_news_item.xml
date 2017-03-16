@@ -4,7 +4,6 @@
               android:gravity="center"
               android:padding="8dp"
               android:layout_gravity="center"
-
               android:background="@drawable/shade_images"
               xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"

@@ -88,4 +88,19 @@
     <string name="register">注册</string>
     <string name="other">分享</string>
     <string name="edit">编辑</string>
+    <string name="images_visit">图片浏览</string>
+    <string name="click_come">点击登录</string>
+    <string name="mymessage">我的消息</string>
+    <string name="myFocus">我的关注</string>
+    <string name="my_collection">我的收藏</string>
+    <string name="my_discuss">我的评论</string>
+    <string name="my_reply">投诉反馈</string>
+    <string-array name="setting">
+        <item>@string/mymessage</item>
+        <item>@string/myFocus</item>
+        <item>@string/my_collection</item>
+        <item>@string/my_discuss</item>
+        <item>@string/my_reply</item>
+
+    </string-array>
 </resources>

@@ -3,7 +3,6 @@ package chen.yy.com.news.shop.viewholder;
 import android.content.Context;
 import android.view.View;
 import android.widget.AdapterView;
-import android.widget.GridView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -13,6 +12,7 @@ import chen.yy.com.news.shop.adapter.RecommedAdapter;
 import chen.yy.com.news.shop.bean.GoodsBean;
 import chen.yy.com.news.shop.bean.HomeData;
 import chen.yy.com.news.utils.Constants;
+import chen.yy.com.news.views.ScrollGridView;
 
 /**
  * shopmall2
@@ -24,14 +24,14 @@ import chen.yy.com.news.utils.Constants;
 public class RecommendViewHolder extends BaseViewHolder implements View.OnClickListener {
     private TextView  tv_groom;
     private TextView  tv_rdmore;
-    private GridView  gv_rdmore;
+    private ScrollGridView gv_rdmore;
     private Context co;
     private HomeData.ResultBean result;
     public RecommendViewHolder(View view) {
         super(view);
         tv_groom= (TextView) view.findViewById(R.id.tv_groom);
         tv_rdmore= (TextView) view.findViewById(R.id.tv_groom_more);
-        gv_rdmore= (GridView) view.findViewById(R.id.gv_rdmain);
+        gv_rdmore= (ScrollGridView) view.findViewById(R.id.gv_rdmain);
 
     }
 

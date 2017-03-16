@@ -35,7 +35,7 @@ public class BitmapRound extends BitmapTransformation {
 		Canvas canvas=new Canvas(bitmap);
 		Paint paint=new Paint(Paint.ANTI_ALIAS_FLAG);
 
-		canvas.drawRoundRect(new RectF(0,0,toTransform.getWidth(),toTransform.getHeight()),toTransform.getWidth()/4,toTransform.getWidth()/4,paint);
+		canvas.drawRoundRect(new RectF(0,0,toTransform.getWidth(),toTransform.getHeight()),toTransform.getWidth()/15,toTransform.getWidth()/15,paint);
 
 		Log.e(TAG, "transform: toTransform.getWidth()1" +toTransform.getWidth());
 		Log.e(TAG, "transform: toTransform.getHeight()1" +toTransform.getHeight());

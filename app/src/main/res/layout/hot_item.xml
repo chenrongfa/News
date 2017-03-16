@@ -2,7 +2,7 @@
 <RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:background="@color/red_point"
+    android:background="@color/white1"
     android:layout_height="500dp">
     <TextView
         android:clickable="true"
@@ -24,7 +24,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/tv_hot_more"/>
-    <GridView
+    <chen.yy.com.news.views.ScrollGridView
         android:layout_marginLeft="8dp"
         android:layout_marginTop="8dp"
         android:horizontalSpacing="8dp"
@@ -36,5 +36,5 @@
         android:layout_height="wrap_content"
         android:numColumns="2"
         >
-    </GridView>
+    </chen.yy.com.news.views.ScrollGridView>
 </RelativeLayout>
