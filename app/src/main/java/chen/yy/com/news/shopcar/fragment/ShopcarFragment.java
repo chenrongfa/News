@@ -53,6 +53,18 @@ import chen.yy.com.news.zhifubao.PayResult;
 
 public class ShopcarFragment extends BaseFragment {
 
+
+
+
+
+
+
+
+
+
+
+
+
     @BindView(R.id.iv_atguigu)
     ImageView ivAtguigu;
     @BindView(R.id.tv_empty)
@@ -84,6 +96,14 @@ public class ShopcarFragment extends BaseFragment {
     @BindView(R.id.ll_edit)
     LinearLayout llEdit;
     private ShopAdapter shopAdapter;
+    private boolean isFirst=true;
+
+    public ShopAdapter getShopAdapter() {
+
+        return shopAdapter;
+
+    }
+
     private boolean isEditState=false;//是否是在编辑状态 默认 false
   private SparseArray<GoodsBean> cache;
       /** 支付宝支付业务：入参app_id */
@@ -156,6 +176,7 @@ public class ShopcarFragment extends BaseFragment {
       };
     @Override
     public View initView() {
+        Log.e(TAG, "initView: " );
         View view = inflater.inflate(R.layout.fragment_shopcar, null);
         ButterKnife.bind(this, view);
         CacheUtil.setSparseArray(context);
@@ -173,9 +194,12 @@ public class ShopcarFragment extends BaseFragment {
     @Subscribe(threadMode = ThreadMode.MAIN)
  public void onEventMainThread(Integer count){
         if(count==0){
+            Log.e("bug", "onEventMainThread: reciever" );
             tlEmpty.setVisibility(View.VISIBLE);
+            rlData.setVisibility(View.GONE);
             llEdit.setVisibility(View.GONE);
-            llAccount.setVisibility(View.GONE);
+            llAccount.setVisibility(View.VISIBLE);
+            isEditState=false;
             tvEdit.setText("編輯");
             shopAdapter.notifyDataSetChanged();
         }
@@ -202,12 +226,12 @@ public class ShopcarFragment extends BaseFragment {
             case R.id.tv_edit:
                 if(!isEditState){
                     isEditState=true;
-                    tvEdit.setText("编辑中");
+                    tvEdit.setText("正在编辑中");
                     llAccount.setVisibility(View.GONE);
                     llEdit.setVisibility(View.VISIBLE);
                 }else{
                     isEditState=false;
-                    tvEdit.setText("编辑完成");
+                    tvEdit.setText("编辑");
                     llAccount.setVisibility(View.VISIBLE);
                     llEdit.setVisibility(View.GONE);
                 }
@@ -285,11 +309,19 @@ public class ShopcarFragment extends BaseFragment {
     @Override
     public void onResume() {
         super.onResume();
+        if(isFirst){
+            isFirst=false;
+        }else {
+           cache=CacheUtil.cache;
+            initShop();
+            shopAdapter.setCache(cache);
+
+        }
         Log.e(TAG, "onResume: ");
     }
 
     @Override
-    public void onHiddenChanged(boolean hidden) {
+                                public void onHiddenChanged(boolean hidden) {
         if (!hidden) {
             hideData();
         }

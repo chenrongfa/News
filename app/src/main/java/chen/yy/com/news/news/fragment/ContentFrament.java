@@ -21,7 +21,9 @@ import chen.yy.com.news.base.BaseFragment;
 import chen.yy.com.news.home.fragment.HomeFrament;
 import chen.yy.com.news.setting.SettingFrament;
 import chen.yy.com.news.shop.fragment.ShopFragment;
+import chen.yy.com.news.shopcar.adapter.ShopAdapter;
 import chen.yy.com.news.shopcar.fragment.ShopcarFragment;
+import chen.yy.com.news.utils.CacheUtil;
 
 import static android.content.ContentValues.TAG;
 
@@ -54,6 +56,7 @@ public class ContentFrament extends BaseFragment {
 	private int mPosition; //当前fragent 的位置
 	private MainActivity mMainActivity;
 	private SlidingMenu slidingMenu;
+	private ShopcarFragment shopcarFragment;
 
 	@Override
 	protected View initView() {
@@ -69,7 +72,8 @@ public class ContentFrament extends BaseFragment {
 		mBaseFragment.add(new HomeFrament());
 		mBaseFragment.add(new NewsFrament());
 		mBaseFragment.add(new ShopFragment());
-		mBaseFragment.add(new ShopcarFragment());
+		shopcarFragment = new ShopcarFragment();
+		mBaseFragment.add(shopcarFragment);
 		mBaseFragment.add(new SettingFrament());
 		mFragment = getActivity().getSupportFragmentManager();
 		mAdapter = new MainAdapter(getChildFragmentManager(), mBaseFragment);
@@ -156,6 +160,10 @@ public class ContentFrament extends BaseFragment {
 					break;
 				case R.id.btn_shopcar:
 					mPosition = 3;
+					//刷新购物车的数据
+					refreshShopCar();
+
+
 					vpContent.setCurrentItem(mPosition);
 					break;
 				case R.id.btn_setting:
@@ -168,6 +176,20 @@ public class ContentFrament extends BaseFragment {
 					break;
 
 
+			}
+
+		}
+	}
+//刷新
+	private void refreshShopCar() {
+		if(shopcarFragment!=null){
+			//// TODO: 2017/3/17
+			Log.e(TAG, "refreshShopCar: " );
+			CacheUtil.setSparseArray(getActivity());
+			if(CacheUtil.cache.size()!=0){
+				ShopAdapter shopAdapter = shopcarFragment.getShopAdapter();
+				if(shopAdapter!=null)
+				shopAdapter.setCache(CacheUtil.cache);
 			}
 
 		}

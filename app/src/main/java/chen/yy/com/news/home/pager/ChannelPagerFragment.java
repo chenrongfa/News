@@ -38,6 +38,8 @@ public class ChannelPagerFragment extends BaseFragment {
 
 	private CullingTest culling1;
 	private List<CullingTest.IdlistBean.NewslistBean> newslist;
+	private boolean isFresh;
+	private CullingTestAdapter adapter;
 
 
 	@Override
@@ -48,7 +50,7 @@ public class ChannelPagerFragment extends BaseFragment {
 
 		lvCulling = (ListView) viewById.getPullableView();
 		lvCulling.setDivider(null);
-		getInternetData();
+		getInternetData(Constants.CHANNEL_URL);
 		return inflate;
 	}
 
@@ -64,11 +66,23 @@ public class ChannelPagerFragment extends BaseFragment {
 				startActivity(inent);
 			}
 		});
+		viewById.setOnPullListener(new PullToRefreshLayout.OnPullListener() {
+			@Override
+			public void onRefresh(PullToRefreshLayout pullToRefreshLayout) {
+				isFresh=true;
+				getInternetData(Constants.CHANNEL_URL);
+			}
+
+			@Override
+			public void onLoadMore(PullToRefreshLayout pullToRefreshLayout) {
+
+			}
+		});
 
 	}
-	private void getInternetData() {
+	private void getInternetData( String url) {
 		OkHttpUtils.get().
-				url(Constants.CHANNEL_URL).
+				url(url).
 				tag(this)
 				.build().
 				execute(new StringResult());
@@ -77,17 +91,25 @@ public class ChannelPagerFragment extends BaseFragment {
 
 		@Override
 		public void onError(Call call, Exception e, int i) {
-			ShowTipUtils.Show(getActivity(),e.toString());
-			String result = CacheUtils.getInstance().get(Constants.CHANNEL_URL_CACHE, "");
-			if(!TextUtils.isEmpty(result)){
-				culling1 = CacheUtils.getInstance().parseJson(result, CullingTest.class);
-				resolveTab();
+			if(isFresh){
+				isFresh=false;
+				viewById.refreshFinish(PullToRefreshLayout.FAIL);
 			}
+				ShowTipUtils.Show(getActivity(), e.toString());
+				String result = CacheUtils.getInstance().get(Constants.CHANNEL_URL_CACHE, "");
+				if (!TextUtils.isEmpty(result)) {
+					culling1 = CacheUtils.getInstance().parseJson(result, CullingTest.class);
+					resolveTab();
+				}
+
 		}
 
 		@Override
 		public void onResponse(String s, int i) {
-
+			if(isFresh){
+				isFresh=false;
+				viewById.refreshFinish(PullToRefreshLayout.SUCCEED);
+			}
 			Log.e(TAG, "onResponse: Dsds"+s );
 			culling1 = CacheUtils.getInstance().parseJson(s, CullingTest.class);
 
@@ -105,8 +127,12 @@ public class ChannelPagerFragment extends BaseFragment {
 		if(culling1!=null){
 			Log.e(TAG, "resolveTab: "+culling1 );
 			newslist = culling1.getIdlist().get(0).getNewslist();
-			CullingTestAdapter adapter=new CullingTestAdapter(getActivity(),newslist,R.layout.culling_item);
-			lvCulling.setAdapter(adapter);
+			if(adapter==null) {
+				adapter = new CullingTestAdapter(getActivity(), newslist, R.layout.culling_item);
+				lvCulling.setAdapter(adapter);
+			}else{
+				adapter.refresh(newslist);
+			}
 
 		}
 

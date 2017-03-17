@@ -26,6 +26,8 @@ import butterknife.BindView;
 import butterknife.ButterKnife;
 import chen.yy.com.news.R;
 import chen.yy.com.news.shop.bean.GoodsBean;
+import chen.yy.com.news.utils.CacheUtil;
+import chen.yy.com.news.utils.ShowTipUtils;
 
 import static android.content.ContentValues.TAG;
 
@@ -38,6 +40,9 @@ import static android.content.ContentValues.TAG;
  */
 public class ShopAdapter extends BaseAdapter implements View.OnClickListener {
     Context context;
+
+
+
     SparseArray<GoodsBean> cache;
     private Button btnDelete;
     private CheckBox cbAll;
@@ -82,6 +87,16 @@ public class ShopAdapter extends BaseAdapter implements View.OnClickListener {
         tvCount.setText(spannableString);
     }
 
+    public SparseArray<GoodsBean> getCache() {
+        return cache;
+    }
+
+    public void setCache(SparseArray<GoodsBean> cache) {
+        if(cache!=null) {
+            this.cache = cache;
+            notifyDataSetChanged();
+        }
+    }
     /**
      *  set 全选checkbox
      * @param cbAll
@@ -194,14 +209,18 @@ public class ShopAdapter extends BaseAdapter implements View.OnClickListener {
             public void onClick(View v) {
                 int sum=1;//设置库存为最少购买数量
                 int count = goods.getCount();
+                if(count==1){
+                    ShowTipUtils.Show(context,"不能在减少了");
+                }
                 if(count>sum){
                     count--;
                     data.tvCount.setText(count+"");
                     goods.setCount(count);
+                    //数据更新
+                    notifyDataSetChanged();
+                    setCountSum();
                 }
-                //数据更新
-                notifyDataSetChanged();
-                setCountSum();
+
             }
         });
 
@@ -220,13 +239,17 @@ public class ShopAdapter extends BaseAdapter implements View.OnClickListener {
 
     private void setDeleteChecked() {
         for(int i=0;i<cache.size();i++){
-            if(cache.get(cache.keyAt(i)).isChecked()){
+            GoodsBean goodsBean = cache.get(cache.keyAt(i));
+            if(goodsBean.isChecked()){
                 cache.removeAt(i);
+                CacheUtil.delete(context,goodsBean);
             }
         }
         Log.e(TAG, "setDeleteChecked: "+cache.size());
         //更新数据
         if(cache.size()==0){
+            //数据为零通知隐藏视图
+            Log.e("bug", "setDeleteChecked: fasong" );
             EventBus.getDefault().post(0);
         }else{
         notifyDataSetChanged();

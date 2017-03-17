@@ -8,6 +8,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
 import android.util.Log;
 import android.view.View;
+import android.webkit.WebChromeClient;
 import android.webkit.WebSettings;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
@@ -25,6 +26,8 @@ import chen.yy.com.news.utils.ShowTipUtils;
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
 
+import static chen.yy.com.news.R.id.wb_news;
+
 public class NewsActivity extends AppCompatActivity {
 
 	private static final String TAG = "NewsActivity";
@@ -34,7 +37,7 @@ public class NewsActivity extends AppCompatActivity {
 	ImageView ivFont;
 	@BindView(R.id.iv_share)
 	ImageView ivShare;
-	@BindView(R.id.wb_news)
+	@BindView(wb_news)
 	WebView wbNews;
 	@BindView(R.id.activity_news)
 	RelativeLayout activityNews;
@@ -75,6 +78,8 @@ public class NewsActivity extends AppCompatActivity {
 		settings.setBuiltInZoomControls(false);
 		//支持javascript
 		settings.setJavaScriptEnabled(true);
+		settings.setLoadWithOverviewMode(true);
+
 
 		wbNews.setVerticalScrollBarEnabled(true);
 		//缓存模式
@@ -82,31 +87,37 @@ public class NewsActivity extends AppCompatActivity {
 		//开启缓存
 		settings.setDatabaseEnabled(true);
 		settings.setDomStorageEnabled(true);
+		settings.setPluginState(WebSettings.PluginState.ON);
 		//缓存目录
 		settings.setAppCachePath(getFilesDir().getAbsolutePath()+"/web");
 		settings.setAppCacheEnabled(true);
-		wbNews.loadUrl(mUrl);
 
-		wbNews.setWebViewClient(new WebViewClient() {
-			@Override
-			public void onScaleChanged(WebView view, float oldScale, float newScale) {
-				Log.e(TAG, "onScaleChanged:oldScale " + oldScale);
-				Log.e(TAG, "onScaleChanged:newScale " + newScale);
-				super.onScaleChanged(view, oldScale, newScale);
-			}
+
+		wbNews.setWebChromeClient(new WebChromeClient());
+		wbNews.setWebViewClient(new WebViewClient(){
+
 
 			@Override
 			public boolean shouldOverrideUrlLoading(WebView view, String url) {
-				wbNews.loadUrl(url);
+			  view.loadUrl(url);
 				return true;
+
+
 			}
 
 			@Override
 			public void onPageFinished(WebView view, String url) {
+				Log.e(TAG, "onPageFinished: ");
 				super.onPageFinished(view, url);
 				pbLoad.setVisibility(View.GONE);
+//				Log.e(TAG, "shouldOverrideUrlLoading: " );
+//				Intent intent=new Intent(Intent.ACTION_VIEW);
+//				intent.setDataAndType(Uri.parse(url),"video/*");
+//				intent.setData(Uri.parse(url));
+//				startActivity(intent);
 			}
 		});
+		wbNews.loadUrl(mUrl);
 	}
 
 	private void resovleDialog(String[] font) {

@@ -25,6 +25,40 @@ public class GoodsBean  implements Serializable{
     private String name;
     private String product_id;
 
+    @Override
+    public boolean equals(Object o) {
+        if (this == o)
+            return true;
+        if (!(o instanceof GoodsBean))
+            return false;
+
+        GoodsBean goodsBean = (GoodsBean) o;
+
+        if (isChecked != goodsBean.isChecked)
+            return false;
+        if (count != goodsBean.count)
+            return false;
+        if (cover_price != null ? !cover_price.equals(goodsBean.cover_price) : goodsBean.cover_price != null)
+            return false;
+        if (figure != null ? !figure.equals(goodsBean.figure) : goodsBean.figure != null)
+            return false;
+        if (name != null ? !name.equals(goodsBean.name) : goodsBean.name != null)
+            return false;
+        return product_id != null ? product_id.equals(goodsBean.product_id) : goodsBean.product_id == null;
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = cover_price != null ? cover_price.hashCode() : 0;
+        result = 31 * result + (figure != null ? figure.hashCode() : 0);
+        result = 31 * result + (name != null ? name.hashCode() : 0);
+        result = 31 * result + (product_id != null ? product_id.hashCode() : 0);
+        result = 31 * result + (isChecked ? 1 : 0);
+        result = 31 * result + count;
+        return result;
+    }
+
     public boolean isChecked() {
         return isChecked;
     }

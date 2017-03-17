@@ -76,7 +76,10 @@
         <!-- <action android:name="android.net.conn.CONNECTIVITY_CHANGE"></action> -->
         <!-- </intent-filter> -->
         <!-- </receiver> -->
-        <activity android:name=".activity.NewsActivity">
+        <activity android:name=".activity.NewsActivity"
+                  android:hardwareAccelerated="true"
+                  android:configChanges="keyboardHidden|screenSize|orientation"
+            >
         </activity>
         <!-- Rich push 核心功能 since 2.0.6 -->
         <!--<activity-->
