@@ -2,6 +2,7 @@ package chen.yy.com.news;
 
 import android.app.Application;
 
+import com.tencent.smtt.sdk.QbSdk;
 import com.zhy.http.okhttp.OkHttpUtils;
 
 import org.xutils.x;
@@ -38,6 +39,8 @@ public class InitApplication extends Application {
 		okHttpClient.connectTimeout(5*1000, TimeUnit.MILLISECONDS);
 		okHttpClient.readTimeout(5*1000,TimeUnit.MILLISECONDS);
 		OkHttpUtils.initClient(okHttpClient.build());
+		//初始化腾讯webview
+		QbSdk.initX5Environment(this, null);
 
 
 

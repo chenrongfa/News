@@ -15,7 +15,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import chen.yy.com.news.R;
-import chen.yy.com.news.activity.NewsActivity;
+import chen.yy.com.news.activity.VideoActivity;
 import chen.yy.com.news.base.BaseFragment;
 import chen.yy.com.news.home.adapter.CullingAdapter;
 import chen.yy.com.news.home.bean.CullingBean;
@@ -65,7 +65,8 @@ public class CullingPagerFragment extends BaseFragment {
 		lvCulling.setOnItemClickListener(new AdapterView.OnItemClickListener() {
 			@Override
 			public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-				Intent inent=new Intent(getActivity(), NewsActivity.class);
+				ShowTipUtils.Show(getActivity(),"110");
+				Intent inent=new Intent(getActivity(), VideoActivity.class);
 				inent.putExtra(Constants.URL,newslist.get(position).getSurl());
 				inent.putExtra(Constants.IMAGES_URL,newslist.get(position).getThumbnails().get(0));
 				startActivity(inent);

@@ -1,21 +1,20 @@
 package chen.yy.com.news.activity;
 
 import android.app.AlertDialog;
-import android.app.Dialog;
 import android.content.DialogInterface;
+import android.graphics.PixelFormat;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
-import android.util.Log;
 import android.view.View;
-import android.webkit.WebChromeClient;
-import android.webkit.WebSettings;
-import android.webkit.WebView;
-import android.webkit.WebViewClient;
 import android.widget.ImageView;
 import android.widget.ProgressBar;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
+
+import com.tencent.smtt.sdk.WebSettings;
+import com.tencent.smtt.sdk.WebView;
+import com.tencent.smtt.sdk.WebViewClient;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -26,7 +25,6 @@ import chen.yy.com.news.utils.ShowTipUtils;
 import cn.sharesdk.framework.ShareSDK;
 import cn.sharesdk.onekeyshare.OnekeyShare;
 
-import static chen.yy.com.news.R.id.wb_news;
 
 public class VideoActivity extends AppCompatActivity {
 
@@ -37,7 +35,7 @@ public class VideoActivity extends AppCompatActivity {
 	ImageView ivFont;
 	@BindView(R.id.iv_share)
 	ImageView ivShare;
-	@BindView(wb_news)
+	@BindView(R.id.wb_news)
 	WebView wbNews;
 	@BindView(R.id.activity_news)
 	RelativeLayout activityNews;
@@ -45,14 +43,13 @@ public class VideoActivity extends AppCompatActivity {
 	ProgressBar pbLoad;
 	private String mUrl;
 	private WebSettings settings;
-	private Dialog dialog;
 	private AlertDialog alertDialog;
 	private int mPsotion;//字体的选择位置
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_news);
+		setContentView(R.layout.activity_video);
 		ButterKnife.bind(this);
 		initData();
 	}
@@ -66,6 +63,12 @@ public class VideoActivity extends AppCompatActivity {
 		if (mUrl != null) {
 			String font[] = getResources().getStringArray(R.array.font);
 			resovleDialog(font);
+//			 if(TbsVideo.canUseTbsPlayer(this)){
+//				 ShowTipUtils.Show(this,"jinlai");
+//				 TbsVideo.openVideo(this,mUrl);
+//
+//
+//			 }
 			resolveWebView();
 		}
 	}
@@ -79,6 +82,8 @@ public class VideoActivity extends AppCompatActivity {
 		//支持javascript
 		settings.setJavaScriptEnabled(true);
 		settings.setLoadWithOverviewMode(true);
+		//闪屏
+		getWindow().setFormat(PixelFormat.TRANSLUCENT);
 
 
 		wbNews.setVerticalScrollBarEnabled(true);
@@ -93,28 +98,41 @@ public class VideoActivity extends AppCompatActivity {
 		settings.setAppCacheEnabled(true);
 
 
-		wbNews.setWebChromeClient(new WebChromeClient());
+//		wbNews.setWebChromeClient(new WebChromeClient());
+//		wbNews.setWebViewClient(new WebViewClient(){
+//
+//
+//			@Override
+//			public boolean shouldOverrideUrlLoading(WebView view, String url) {
+//			  view.loadUrl(url);
+//				return true;
+//
+//
+//			}
+//
+//			@Override
+//			public void onPageFinished(WebView view, String url) {
+//				Log.e(TAG, "onPageFinished: ");
+//				super.onPageFinished(view, url);
+//
+////				Log.e(TAG, "shouldOverrideUrlLoading: " );
+////				Intent intent=new Intent(Intent.ACTION_VIEW);
+////				intent.setDataAndType(Uri.parse(url),"video/*");
+////				intent.setData(Uri.parse(url));
+////				startActivity(intent);
+//			}
+//		});
 		wbNews.setWebViewClient(new WebViewClient(){
-
-
 			@Override
-			public boolean shouldOverrideUrlLoading(WebView view, String url) {
-			  view.loadUrl(url);
+			public boolean shouldOverrideUrlLoading(WebView webView, String s) {
+				wbNews.loadUrl(s);
 				return true;
-
-
 			}
 
 			@Override
-			public void onPageFinished(WebView view, String url) {
-				Log.e(TAG, "onPageFinished: ");
-				super.onPageFinished(view, url);
+			public void onPageFinished(WebView webView, String s) {
+				super.onPageFinished(webView, s);
 				pbLoad.setVisibility(View.GONE);
-//				Log.e(TAG, "shouldOverrideUrlLoading: " );
-//				Intent intent=new Intent(Intent.ACTION_VIEW);
-//				intent.setDataAndType(Uri.parse(url),"video/*");
-//				intent.setData(Uri.parse(url));
-//				startActivity(intent);
 			}
 		});
 		wbNews.loadUrl(mUrl);

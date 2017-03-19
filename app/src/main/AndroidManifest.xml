@@ -257,6 +257,20 @@
             android:exported="false"
             android:screenOrientation="behind" >
         </activity>
+        <activity android:name=".activity.VideoActivity"
+            android:configChanges="keyboardHidden|screenSize|orientation"
+            ></activity>
+        <activity
+            android:name="com.tencent.smtt.sdk.VideoActivity"
+            android:configChanges="orientation|screenSize|keyboardHidden"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:alwaysRetainTaskState="true">
+            <intent-filter>
+                <action android:name="com.tencent.smtt.tbs.video.PLAY" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
         <meta-data
             android:name="JPUSH_CHANNEL"
             android:value="developer-default"/>
