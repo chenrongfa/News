@@ -35,6 +35,7 @@ import chen.yy.com.news.home.pager.SlowLivePagerFragment;
 import chen.yy.com.news.utils.CacheUtils;
 import chen.yy.com.news.utils.Constants;
 import chen.yy.com.news.utils.ShowTipUtils;
+import chen.yy.com.news.utils.ViewPagertranform;
 import chen.yy.com.news.views.TabView;
 import okhttp3.Call;
 
@@ -70,6 +71,8 @@ public class HomeFrament extends BaseFragment {
 		// 设置是否能滚动,其他属性不能使style渲染有效
 		titles.setTabMode(TabLayout.MODE_SCROLLABLE);
 		titles.setupWithViewPager(vpNews);
+		//设置动画
+		vpNews.setPageTransformer(true,new ViewPagertranform());
 		getInternetData();
 		return inflate;
 	}

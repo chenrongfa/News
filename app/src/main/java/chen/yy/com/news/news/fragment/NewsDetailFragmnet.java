@@ -23,6 +23,7 @@ import chen.yy.com.news.base.BaseFragment;
 import chen.yy.com.news.news.bean.NewsBeans;
 import chen.yy.com.news.news.pager.NewsDetailPagerFragment;
 import chen.yy.com.news.utils.ShowTipUtils;
+import chen.yy.com.news.utils.ZoominViewpagerTranform;
 import chen.yy.com.news.views.TabView;
 
 /**
@@ -83,7 +84,7 @@ public class NewsDetailFragmnet extends BaseFragment {
 				}, 1000);
 			}
 		});
-
+		vpNews.setPageTransformer(true,new ZoominViewpagerTranform());
 		vpNews.setOffscreenPageLimit(12);
 		List<NewsBeans.DataBean> data = news.getData();
 		newsPager=new ArrayList<>();

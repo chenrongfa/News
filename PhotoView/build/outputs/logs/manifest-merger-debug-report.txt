@@ -23,15 +23,15 @@ ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:5:5-66
 		ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:5:22-64
 application
 ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:7:5-33:19
-MERGED from [com.android.support:appcompat-v7:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-v4:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-fragment:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-media-compat:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-core-utils:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:22:5-20
-MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:23:5-20
-MERGED from [com.android.support:support-core-ui:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:25:5-20
-MERGED from [com.android.support:support-compat:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:appcompat-v7:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-v4:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\37b6c39d999a432c1ae9e975de1200f781374877\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\4630d336d757b8ad07ba031ea4ed6226b46b0683\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\3ec3553529ce635679518e570f85d78193507616\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\b33980d93615924a987c6aae4e369f1416ef7c92\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\1fa7fa7dab2dac54cb5ea2b15317d7fa3d0d8116\output\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\f8b09cea413fedafd01f5a0e852214c35ace06ad\output\AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-core-ui:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\7bc73ea5b74685216d22c59ba86c8ed29c417541\output\AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\77860fe8b5faf0e9a42501d143549da374519107\output\AndroidManifest.xml:25:5-20
 	android:label
 		ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:11:9-41
 	android:fullBackupContent
@@ -82,19 +82,19 @@ ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:32:9-65
 		ADDED from D:\work\News\PhotoView\src\main\AndroidManifest.xml:32:19-63
 uses-sdk
 INJECTED from D:\work\News\PhotoView\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [News:library:unspecified] D:\work\News\PhotoView\build\intermediates\exploded-aar\News\library\unspecified\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-v4\24.2.1\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-fragment\24.2.1\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-media-compat\24.2.1\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-utils:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-core-utils\24.2.1\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\animated-vector-drawable\24.2.1\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-vector-drawable\24.2.1\AndroidManifest.xml:21:5-43
-MERGED from [com.android.support:recyclerview-v7:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\24.2.1\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-core-ui:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-core-ui\24.2.1\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-compat:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\support-compat\24.2.1\AndroidManifest.xml:21:5-23:58
+MERGED from [News:library:unspecified] D:\work\News\library\build\intermediates\bundles\default\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\37b6c39d999a432c1ae9e975de1200f781374877\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\4630d336d757b8ad07ba031ea4ed6226b46b0683\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\3ec3553529ce635679518e570f85d78193507616\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\b33980d93615924a987c6aae4e369f1416ef7c92\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\1fa7fa7dab2dac54cb5ea2b15317d7fa3d0d8116\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\f8b09cea413fedafd01f5a0e852214c35ace06ad\output\AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:recyclerview-v7:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\e5a0ec7e6e4397fba0569138f52c78e499858154\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-core-ui:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\7bc73ea5b74685216d22c59ba86c8ed29c417541\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\77860fe8b5faf0e9a42501d143549da374519107\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:appcompat-v7:24.2.1] D:\work\News\PhotoView\build\intermediates\exploded-aar\com.android.support\appcompat-v7\24.2.1\AndroidManifest.xml:23:9-75
+		ADDED from [com.android.support:appcompat-v7:24.2.1] I:\eclips\adt-bundle-windows-x64\adt-bundle-windows-x64\android-sdk-windows\.android\build-cache\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\output\AndroidManifest.xml:23:9-75
 	android:targetSdkVersion
 		INJECTED from D:\work\News\PhotoView\src\main\AndroidManifest.xml
 		INJECTED from D:\work\News\PhotoView\src\main\AndroidManifest.xml

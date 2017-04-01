@@ -17,7 +17,7 @@ import chen.yy.com.news.shop.bean.GoodsBean;
 
 public class Constants {
 	public static final  String IS_FIRST="is_first";
-	public static final String BASE_URL = "http://192.168.2.120:8080/web_home";
+	public static final String BASE_URL = "http://192.168.2.101:8080/web_home";
 
 	/**
 	 * 新闻中心的网络地址
@@ -34,7 +34,7 @@ public class Constants {
 	 */
 	public static final String NEWSDETAIL = "newsdetail";
 	public static final String URL = "url";
-	public static final String BASE_URL1="http://192.168.2.120:8080/atguigu";
+	public static final String BASE_URL1="http://192.168.2.101:8080/atguigu";
 
 	public static final  String IMG_URL=BASE_URL1+"/img";
 	public static final String IMAGES_URL = "images_url";

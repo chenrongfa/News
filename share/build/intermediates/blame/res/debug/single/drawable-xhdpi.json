@@ -32,12 +32,12 @@
         "source": "D:\\work\\News\\share\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_instapaper.png"
     },
     {
-        "merged": "D:\\work\\News\\share\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_oks_classic_vkontakte.png",
-        "source": "D:\\work\\News\\share\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_vkontakte.png"
-    },
-    {
         "merged": "D:\\work\\News\\share\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_oks_classic_meipai.png",
         "source": "D:\\work\\News\\share\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_meipai.png"
+    },
+    {
+        "merged": "D:\\work\\News\\share\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_oks_classic_vkontakte.png",
+        "source": "D:\\work\\News\\share\\src\\main\\res\\drawable-xhdpi\\ssdk_oks_classic_vkontakte.png"
     },
     {
         "merged": "D:\\work\\News\\share\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi\\ssdk_oks_classic_laiwangmoments.png",

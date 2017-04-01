@@ -1,14 +1,14 @@
 [
     {
         "merged": "D:\\work\\News\\PhotoView\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "D:\\work\\News\\PhotoView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "source": "I:\\eclips\\adt-bundle-windows-x64\\adt-bundle-windows-x64\\android-sdk-windows\\.android\\build-cache\\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
     },
     {
         "merged": "D:\\work\\News\\PhotoView\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "D:\\work\\News\\PhotoView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "source": "I:\\eclips\\adt-bundle-windows-x64\\adt-bundle-windows-x64\\android-sdk-windows\\.android\\build-cache\\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
         "merged": "D:\\work\\News\\PhotoView\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "D:\\work\\News\\PhotoView\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\24.2.1\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "source": "I:\\eclips\\adt-bundle-windows-x64\\adt-bundle-windows-x64\\android-sdk-windows\\.android\\build-cache\\d1b2c3ad192e1e3c629a468a3b0f8ba9c679dc7f\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     }
 ]
